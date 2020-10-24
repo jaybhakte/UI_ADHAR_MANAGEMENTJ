@@ -1,77 +1,105 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AdharCardManagement</title>
-    <link rel="stylesheet" href="/css/style.css">
-    <link rel="stylesheet" href="/css/bootstrap.min.css">
-    <script src="/js/jquery.min.js"></script>
-    <script src="/js/popper.min.js"></script>
-    <script src="/js/bootstrap.min.js"></script>
-</head>
-<body>
-    <div class="container-fluid">
-      <div class="alert alert-warning alert-dismissible">
-        <button type="button" class="close" data-dismiss="alert">&times;</button>
-        <strong>Success!</strong> Indicates a successful or positive action.
-      </div>
-      <div class="alert alert-warning alert-dismissible">
-        <button type="button" class="close" data-dismiss="alert">&times;</button>
-        <strong>Success!</strong> Indicates a successful or positive action.
-      </div>
-        <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
-            <!-- Brand/logo -->
-            <a class="navbar-brand" href="#">
-                <img src="/img/download.jpg" class="rounded img-fluid"  alt="logo" style="width:40px;">
-            </a>
-            <p data-toggle="tooltip" data-placement="top" title="Hooray!" style="color: white;">Manage Your Adhar</p>
-    
-            <!-- Links -->
-            <ul class="navbar-nav">
-                <li class="nav-item">
-                    <a class="nav-link  text-white" style="font-weight: bold; " href="#" >Home</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link  text-white" style="font-weight:bold; " href="contact.html">Contact Us</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link  text-white" style="font-weight: bold" href="faq.html">FAQ</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link  text-white" style="font-weight:bold;" href="feedback.html">Feedback</a>
-                </li>
-            </ul>
-            <form class="form-inline" action="/action_page.php" >
-                <button class="btn btn-success float-right" type="submit" >Sign in</button>
-                <button class="btn btn-success float-right" style="margin: 5px 5px; float: left;" type="submit">Sign up</button>
-            </form>
-        </nav>
-        <div id="demo" class="carousel slide" data-ride="carousel">
 
-            <!-- Indicators -->
-            <ul class="carousel-indicators">
-              <li data-target="#demo" data-slide-to="0" class="active"></li>
-              <li data-target="#demo" data-slide-to="1"></li>
-              <li data-target="#demo" data-slide-to="2"></li>
-            </ul>
-          
-            <!-- The slideshow -->
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <img src="/img/undraw_Camera_re_cnp4.png" alt="Co-Working" class="thumbnail img-fluid" >
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AdharCardManagement</title>
+  <link rel="stylesheet" href="/css/style.css">
+  <link rel="stylesheet" href="/css/bootstrap.min.css">
+  <script src="/js/jquery.min.js"></script>
+  <script src="/js/popper.min.js"></script>
+  <script src="/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+  <div class="container-fluid">
+    <div class="alert alert-warning alert-dismissible bg-danger text-white">
+      <button type="button" class="close" data-dismiss="alert">&times;</button>
+      <strong>Success!</strong> Indicates a successful or positive action.
+    </div>
+    <div class="alert alert-warning alert-dismissible bg-danger text-white">
+      <button type="button" class="close" data-dismiss="alert">&times;</button>
+      <strong>Success!</strong> Indicates a successful or positive action.
+    </div>
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark  sticky-top">
+      <!-- Brand/logo -->
+      <a class="navbar-brand" href="#">
+        <img src="/img/download.jpg" class="rounded img-fluid" alt="logo" style="width:40px;">
+      </a>
+      <p data-toggle="tooltip" data-placement="top" title="Hooray!" style="color: white;">Manage Your Adhar</p>
+
+      <!-- Links -->
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link  text-white" style="font-weight: bold; " href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link  text-white" style="font-weight:bold; " href="contact.html">Contact Us</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link  text-white" style="font-weight: bold" href="faq.html">FAQ</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link  text-white" style="font-weight:bold;" href="feedback.html">Feedback</a>
+        </li>
+      </ul>
+      <form class="form-inline" action="/action_page.php">
+        <button class="btn btn-success float-right" type="submit">Sign in</button>
+        <button class="btn btn-success float-right" style="margin: 5px 5px; float: left;" type="submit">Sign up</button>
+      </form>
+    </nav>
+<div>
+  <h1 style="color: black; text-align: center;">Welcome to Adhar Card Management</h1>
+</div>
+
+    <div id="demo" class="carousel slide" data-ride="carousel">
+
+      <!-- Indicators -->
+      <ul class="carousel-indicators">
+        <li data-target="#demo" data-slide-to="0" class="active"></li>
+        <li data-target="#demo" data-slide-to="1"></li>
+        <li data-target="#demo" data-slide-to="2"></li>
+      </ul>
+
+      <!-- The slideshow -->
+      <div class="jumbotron">
+        <div class="row">
+          <div class="col-sm-3">
+<img class="img-thumbnail img-fluid " src="/img/download (2).jpg" alt="">
+<img class="img-thumbnail img-fluid " src="/img/download (1).jpg" alt="">
+<img class="img-thumbnail img-fluid " src="/img/images (1).jpg" alt="">
+
+          </div>
+          <div class="col-sm-9">
+
+            <div class="carousel-inner ">
+              <div class="carousel-item active ">
+                <img src="/img/undraw_informed_decision_p2lh.png" alt="Co-Working" class="thumbnail img-fluid">
+                <p style="text-align: center;color: black; ">Informed decision</p>
               </div>
               <div class="carousel-item">
-                <img src="/img/undraw_Fingerprint_re_uf3f.png" alt="login now" class="rounded img-fluid" >
+                <img src="/img/undraw_Fingerprint_re_uf3f.png" alt="login now" class="rounded img-fluid">
+                <p style="text-align: center; color: black;">Scan Fingeprint</p>
               </div>
               <div class="carousel-item">
-                <img src="/img/undraw_co-working_825n.png" alt="Notify me" class="rounded img-fluid" >
+                <img src="/img/undraw_co-working_825n.png" alt="Notify me" class="rounded img-fluid">
+                <p style="text-align: center; color:black;">Co-Working people</p>
               </div>
               <div class="carousel-item">
-                <img src="/img/undraw_Login_re_4vu2.png" alt="Notify me" class="rounded img-fluid" >
+                <img src="/img/undraw_Login_re_4vu2.png" alt="Notify me" class="rounded img-fluid">
+                <p style="text-align: center; color:black">Login here</p>
+              </div>
+              <div class="carousel-item">
+                <img src="/img/undraw_Documents_re_isxv.png" alt="Notify me" class="rounded img-fluid">
+                <p style="text-align: center; color:black">Check Documents </p>
+              </div>
+              <div class="carousel-item">
+                <img src="/img/undraw_attached_file_n4wm.png" alt="Notify me" class="rounded img-fluid">
+                <p style="text-align: center; "></p>
               </div>
             </div>
-          
+    
             <!-- Left and right controls -->
             <a class="carousel-control-prev" href="#demo" data-slide="prev">
               <span class="carousel-control-prev-icon"></span>
@@ -80,51 +108,100 @@
               <span class="carousel-control-next-icon"></span>
             </a>
           </div>
-
-          
-
-
-          <div class="row">
-            <div class="col-sm-6">
-                <div class="container" >
-                    <h2>Stretched Link in Card</h2>
-                    <p>Add the .stretched-link class to a link inside the card, and it will make the whole card clickable (the card will act as a link):</p>
-                    <div class="card" style="width:400px">
-                      <img class="card-img-top" src="/img/undraw_male_avatar_323b.png" alt="Card image" style="width:100%">
-                      <div class="card-body">
-                        <h4 class="card-title">John Doe</h4>
-                        <p class="card-text">Some example text some example text. John Doe is an architect and engineer</p>
-                        <a href="#" class="btn btn-primary stretched-link">See Profile</a>
-                      </div>
-                    </div>
-                  </div>
-            </div>
-            <div class="col-sm-6">
-                <div class="container" >
-                    <h2>Stretched Link in Card</h2>
-                    <p>Add the .stretched-link class to a link inside the card, and it will make the whole card clickable (the card will act as a link):</p>
-                    <div class="card" style="width:400px">
-                      <img class="card-img-top" src="/img/undraw_female_avatar_w3jk.png" alt="Card image" style="width:100%">
-                      <div class="card-body">
-                        <h4 class="card-title">John Doe</h4>
-                        <p class="card-text">Some example text some example text. John Doe is an architect and engineer</p>
-                        <a href="#" class="btn btn-primary stretched-link">See Profile</a>
-                      </div>
-                    </div>
-                  </div>
-            </div>
           </div>
-          
-          <footer style="text-align: center; font-weight: bold;">
-            <div class="alert alert-warning text-black">
-              Copyright &copy; www.AdharManagementj.com. All right reserved
-          </div>
-          <a class="navbar-brand" href="#">
-            <img src="/img/download.jpg" class="rounded img-fluid"  alt="logo" style="width:40px;">
-        </a>
-          </footer>
+        </div>
 
 
     </div>
+<!-- Testimonials -->
+
+    <div>
+      <h1 style="color: black; text-align: center;">Testimonials</h1>
+      <p style="text-align: center;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit vel rerum impedit recusandae, accusamus et architecto unde provident maxime aliquid dolorem debitis explicabo possimus veritatis sapiente, omnis, necessitatibus praesentium nam.</p>
+    </div>
+    <!-- Testiomonial cards -->
+    
+    <div class="card-columns">
+      <div class="card bg-primary">
+        <div class="card-body text-center">
+          <a class="navbar-brand" href="#">
+          <img src="/img/undraw_male_avatar_323b.png" class="rounded-circle img-fluid" alt="logo" style="width:180px; height :180px ">
+        </a>          
+          <p class="card-text">Some text inside the first card lorem  orem ipsum dolor sit amet consectetur adipisicing elit. Velit vel rerum impedit recusandae, accusamus et architecto unde provident maxime aliquid dolorem debitis explicabo possimus veritatis sapiente, omnis, necessitatibus praesentium nam. </p>
+        </div>
+      </div>
+      <div class="card bg-warning">
+        <div class="card-body text-center">
+          <a class="navbar-brand" href="#">
+          <img src="/img/undraw_female_avatar_w3jk.png" class="rounded-circle img-fluid" alt="logo" style="width:180px; height :180px ">
+        </a>
+          <p class="card-text">Some text inside the second card lorem  orem ipsum dolor sit amet consectetur adipisicing elit. Velit vel rerum impedit recusandae, accusamus et architecto unde provident maxime aliquid dolorem debitis explicabo possimus veritatis sapiente, omnis, necessitatibus praesentium nam.</p>
+        </div>
+      </div>
+      <div class="card bg-success">
+        <div class="card-body text-center">
+          <a class="navbar-brand" href="#">
+          <img src="/img/undraw_teacher_35j2.png" class="rounded-circle img-fluid" alt="logo" style="width:229px; height :180px ">
+        </a>
+          <p class="card-text">Some text inside the fourth card lorem  orem ipsum dolor sit amet consectetur adipisicing elit. Velit vel rerum impedit recusandae, accusamus et architecto unde provident maxime aliquid dolorem debitis explicabo possimus veritatis sapiente, omnis, necessitatibus praesentium nam.</p>
+        </div>
+      </div>
+      <div class="card bg-danger">
+        <div class="card-body text-center">
+          <a class="navbar-brand" href="#">
+          <img src="/img/undraw_gradma_wanr.png" class="rounded-circle img-fluid" alt="logo" style="width:180px; height :180px ">
+        </a>
+          <p class="card-text">Some text inside the fourth card lorem  orem ipsum dolor sit amet consectetur adipisicing elit. Velit vel rerum impedit recusandae, accusamus et architecto unde provident maxime aliquid dolorem debitis explicabo possimus veritatis sapiente, omnis, necessitatibus praesentium nam.</p>
+        </div>
+      </div>
+      <div class="card bg-light">
+        <div class="card-body text-center">
+          <a class="navbar-brand" href="#">
+          <img src="/img/undraw_children_4rtb.png" class="rounded-circle img-fluid" alt="logo" style="width:180px; height :180px ">
+        </a>
+          <p class="card-text">Some text inside the fifth card lorem orem ipsum dolor sit amet consectetur adipisicing elit. Velit vel rerum impedit recusandae, accusamus et architecto unde provident maxime aliquid dolorem debitis explicabo possimus veritatis sapiente, omnis, necessitatibus praesentium nam. </p>
+        </div>
+      </div>
+      <div class="card bg-info">
+        <div class="card-body text-center">
+          <a class="navbar-brand" href="#">
+          <img src="/img/undraw_people_tax5.png" class="rounded-circle img-fluid" alt="logo" style="width:180px; height :180px ">
+        </a>
+          <p class="card-text">Some text inside the sixth card lorem orem ipsum dolor sit amet consectetur adipisicing elit. Velit vel rerum impedit recusandae, accusamus et architecto unde provident maxime aliquid dolorem debitis explicabo possimus veritatis sapiente, omnis, necessitatibus praesentium nam. </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- footer -->
+    <div class="container">
+
+      <footer style="text-align: center; font-weight: bold;">
+        
+          
+          <div class="alert alert-warning text-black">
+            <a class="navbar-brand" href="#">
+              <img src="/img/instagram-3814080_1280.png" class="rounded img-fluid" alt="logo" style="width:40px;">
+            </a>
+            <a class="navbar-brand" href="#">
+              <img src="/img/facebook-770688_1920.png" class="rounded img-fluid" alt="logo" style="width:40px;">
+            </a>
+            <a class="navbar-brand" href="#">
+              <img src="/img/icons-842861_1920.png" class="rounded img-fluid" alt="logo" style="width:40px;">
+            </a>
+            <a class="navbar-brand" href="#">
+              <img src="/img/download.png" class="rounded img-fluid" alt="logo" style="width:40px;">
+            </a>
+            <a class="navbar-brand" href="#">
+              <img src="/img/yt.png" class="rounded img-fluid" alt="logo" style="width:40px;">
+            </a>
+            Copyright &copy; www.AdharManagementj.com. All right reserved
+          </div>
+        
+      </footer>
+    </div>
+
+
+  </div>
 </body>
+
 </html>
